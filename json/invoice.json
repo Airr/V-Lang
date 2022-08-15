@@ -1,0 +1,192 @@
+{
+  "Invoice": {
+    "AllowIPNPayment": false,
+    "AllowOnlinePayment": false,
+    "AllowOnlineCreditCardPayment": false,
+    "AllowOnlineACHPayment": false,
+    "InvoiceLink": "https://developer.intuit.com/comingSoonview/scs-v1-6330de5b6ed04fc7af182508019d19da02ecbae268eb4711bc3dd263db257d380e094b948c3f4250b5a8082dd9c333d3?locale=en_US&cta=v3invoicelink",
+    "domain": "QBO",
+    "sparse": false,
+    "Id": "130",
+    "SyncToken": "0",
+    "MetaData": {
+      "CreateTime": "2022-06-15T13:16:17-07:00",
+      "LastModifiedByRef": {
+        "value": "9130354319489646"
+      },
+      "LastUpdatedTime": "2022-06-15T13:16:17-07:00"
+    },
+    "CustomField": [
+      {
+        "DefinitionId": "1",
+        "Name": "Crew #",
+        "Type": "StringType",
+        "StringValue": "102"
+      }
+    ],
+    "DocNumber": "1037",
+    "TxnDate": "2022-06-15",
+    "CurrencyRef": {
+      "value": "USD",
+      "name": "United States Dollar"
+    },
+    "LinkedTxn": [
+      {
+        "TxnId": "100",
+        "TxnType": "Estimate"
+      }
+    ],
+    "Line": [
+      {
+        "Id": "1",
+        "LineNum": 1,
+        "Description": "Rock Fountain",
+        "Amount": 275,
+        "LinkedTxn": [
+          {
+            "TxnId": "100",
+            "TxnType": "Estimate"
+          }
+        ],
+        "DetailType": "SalesItemLineDetail",
+        "SalesItemLineDetail": {
+          "ItemRef": {
+            "value": "5",
+            "name": "Design:Fountains:Rock Fountain"
+          },
+          "UnitPrice": 275,
+          "Qty": 1,
+          "ItemAccountRef": {
+            "value": "79",
+            "name": "Sales of Product Income"
+          },
+          "TaxCodeRef": {
+            "value": "TAX"
+          }
+        }
+      },
+      {
+        "Id": "2",
+        "LineNum": 2,
+        "Description": "Fountain Pump",
+        "Amount": 12.75,
+        "LinkedTxn": [
+          {
+            "TxnId": "100",
+            "TxnType": "Estimate"
+          }
+        ],
+        "DetailType": "SalesItemLineDetail",
+        "SalesItemLineDetail": {
+          "ItemRef": {
+            "value": "11",
+            "name": "Design:Fountains:Pump"
+          },
+          "UnitPrice": 12.75,
+          "Qty": 1,
+          "ItemAccountRef": {
+            "value": "79",
+            "name": "Sales of Product Income"
+          },
+          "TaxCodeRef": {
+            "value": "TAX"
+          }
+        }
+      },
+      {
+        "Id": "3",
+        "LineNum": 3,
+        "Description": "Concrete for fountain installation",
+        "Amount": 47.5,
+        "LinkedTxn": [
+          {
+            "TxnId": "100",
+            "TxnType": "Estimate"
+          }
+        ],
+        "DetailType": "SalesItemLineDetail",
+        "SalesItemLineDetail": {
+          "ItemRef": {
+            "value": "3",
+            "name": "Design:Fountains:Concrete"
+          },
+          "UnitPrice": 9.5,
+          "Qty": 5,
+          "ItemAccountRef": {
+            "value": "48",
+            "name": "Landscaping Services:Job Materials:Fountains and Garden Lighting"
+          },
+          "TaxCodeRef": {
+            "value": "TAX"
+          }
+        }
+      },
+      {
+        "Amount": 335.25,
+        "DetailType": "SubTotalLineDetail",
+        "SubTotalLineDetail": {}
+      }
+    ],
+    "TxnTaxDetail": {
+      "TxnTaxCodeRef": {
+        "value": "2"
+      },
+      "TotalTax": 26.82,
+      "TaxLine": [
+        {
+          "Amount": 26.82,
+          "DetailType": "TaxLineDetail",
+          "TaxLineDetail": {
+            "TaxRateRef": {
+              "value": "3"
+            },
+            "PercentBased": true,
+            "TaxPercent": 8,
+            "NetAmountTaxable": 335.25
+          }
+        }
+      ]
+    },
+    "CustomerRef": {
+      "value": "24",
+      "name": "Sonnenschein Family Store"
+    },
+    "CustomerMemo": {
+      "value": "Thank you for your business and have a great day!"
+    },
+    "BillAddr": {
+      "Id": "95",
+      "Line1": "Russ Sonnenschein",
+      "Line2": "Sonnenschein Family Store",
+      "Line3": "5647 Cypress Hill Ave.",
+      "Line4": "Middlefield, CA  94303",
+      "Lat": "37.4238562",
+      "Long": "-122.1141681"
+    },
+    "ShipAddr": {
+      "Id": "25",
+      "Line1": "5647 Cypress Hill Ave.",
+      "City": "Middlefield",
+      "CountrySubDivisionCode": "CA",
+      "PostalCode": "94303",
+      "Lat": "37.4238562",
+      "Long": "-122.1141681"
+    },
+    "FreeFormAddress": true,
+    "SalesTermRef": {
+      "value": "3",
+      "name": "Net 30"
+    },
+    "DueDate": "2022-07-15",
+    "TotalAmt": 362.07,
+    "ApplyTaxAfterDiscount": false,
+    "PrintStatus": "NeedToPrint",
+    "EmailStatus": "NotSet",
+    "BillEmail": {
+      "Address": "Familiystore@intuit.com"
+    },
+    "Balance": 362.07
+  },
+  "time": "2022-08-06T13:48:19.168-07:00"
+}
+
